@@ -1,0 +1,2 @@
+(this["webpackJsonpmemory-card"]=this["webpackJsonpmemory-card"]||[]).push([[0],{3:function(e,t,a){e.exports=a(9)},8:function(e,t,a){},9:function(e,t,a){"use strict";a.r(t);var n=a(0),r=a.n(n),c=a(2),o=a.n(c);a(8);var m=function(){return r.a.createElement("div",{className:"App"},r.a.createElement("header",{className:"App-header"}))};o.a.render(r.a.createElement(r.a.StrictMode,null,r.a.createElement(m,null)),document.getElementById("root"))}},[[3,1,2]]]);
+//# sourceMappingURL=main.b756b030.chunk.js.map
