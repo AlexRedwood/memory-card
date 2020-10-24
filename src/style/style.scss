@@ -1,0 +1,27 @@
+@import "reset";
+@import "background";
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+
+.blockquote-container {
+  height: 100%;
+  background: url(../assets/background/michelangelo.jpg) no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #444;
+}
+
+.blockquote,
+.blockquote-footer {
+  color: white;
+  font-family: "Cinzel", serif;
+}
+
+.dark-transparent {
+  background-color: rgba(0, 0, 0, 0.85);
+  height: 100%;
+  width: 100%;
+}

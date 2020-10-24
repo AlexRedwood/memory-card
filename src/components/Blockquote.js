@@ -1,0 +1,18 @@
+import React from "react";
+
+function Blockquote() {
+  return (
+    <div className="blockquote-container d-flex justify-content-center align-items-center">
+      <div className="dark-transparent d-flex justify-content-center align-items-center">
+        <blockquote className="blockquote text-right">
+          <h1 className="display-4">The Creation of Adam</h1>
+          <footer className="blockquote-footer">
+            <cite title="Source Title">Michelangelo</cite>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  );
+}
+
+export default Blockquote;
