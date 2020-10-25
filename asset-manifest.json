@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/memory-card/static/css/main.4c00e8c4.chunk.css",
-    "main.js": "/memory-card/static/js/main.cf698cfb.chunk.js",
-    "main.js.map": "/memory-card/static/js/main.cf698cfb.chunk.js.map",
+    "main.css": "/memory-card/static/css/main.f798f573.chunk.css",
+    "main.js": "/memory-card/static/js/main.19c5a486.chunk.js",
+    "main.js.map": "/memory-card/static/js/main.19c5a486.chunk.js.map",
     "runtime-main.js": "/memory-card/static/js/runtime-main.4cf988ce.js",
     "runtime-main.js.map": "/memory-card/static/js/runtime-main.4cf988ce.js.map",
-    "static/js/2.cd540422.chunk.js": "/memory-card/static/js/2.cd540422.chunk.js",
-    "static/js/2.cd540422.chunk.js.map": "/memory-card/static/js/2.cd540422.chunk.js.map",
+    "static/js/2.cf12aac5.chunk.js": "/memory-card/static/js/2.cf12aac5.chunk.js",
+    "static/js/2.cf12aac5.chunk.js.map": "/memory-card/static/js/2.cf12aac5.chunk.js.map",
     "index.html": "/memory-card/index.html",
-    "precache-manifest.9f63047adda4e0ec45be5a07be96b94f.js": "/memory-card/precache-manifest.9f63047adda4e0ec45be5a07be96b94f.js",
+    "precache-manifest.359f30eade0ed3274d681b4063537f6c.js": "/memory-card/precache-manifest.359f30eade0ed3274d681b4063537f6c.js",
     "service-worker.js": "/memory-card/service-worker.js",
-    "static/css/main.4c00e8c4.chunk.css.map": "/memory-card/static/css/main.4c00e8c4.chunk.css.map",
-    "static/js/2.cd540422.chunk.js.LICENSE.txt": "/memory-card/static/js/2.cd540422.chunk.js.LICENSE.txt",
+    "static/css/main.f798f573.chunk.css.map": "/memory-card/static/css/main.f798f573.chunk.css.map",
+    "static/js/2.cf12aac5.chunk.js.LICENSE.txt": "/memory-card/static/js/2.cf12aac5.chunk.js.LICENSE.txt",
     "static/media/A_Bar_at_the_Folies-Bergère.png": "/memory-card/static/media/A_Bar_at_the_Folies-Bergère.dc5d73be.png",
     "static/media/Het melkmeisje.jpg": "/memory-card/static/media/Het melkmeisje.3ea0ccd2.jpg",
     "static/media/Jeune Fille dans le Jardin de Giverny.jpg": "/memory-card/static/media/Jeune Fille dans le Jardin de Giverny.dbf06eb0.jpg",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4cf988ce.js",
-    "static/js/2.cd540422.chunk.js",
-    "static/css/main.4c00e8c4.chunk.css",
-    "static/js/main.cf698cfb.chunk.js"
+    "static/js/2.cf12aac5.chunk.js",
+    "static/css/main.f798f573.chunk.css",
+    "static/js/main.19c5a486.chunk.js"
   ]
 }
