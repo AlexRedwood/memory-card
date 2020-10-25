@@ -1,22 +1,35 @@
 {
   "files": {
-    "main.css": "/memory-card/static/css/main.24515877.chunk.css",
-    "main.js": "/memory-card/static/js/main.b756b030.chunk.js",
-    "main.js.map": "/memory-card/static/js/main.b756b030.chunk.js.map",
+    "main.css": "/memory-card/static/css/main.4c00e8c4.chunk.css",
+    "main.js": "/memory-card/static/js/main.cf698cfb.chunk.js",
+    "main.js.map": "/memory-card/static/js/main.cf698cfb.chunk.js.map",
     "runtime-main.js": "/memory-card/static/js/runtime-main.4cf988ce.js",
     "runtime-main.js.map": "/memory-card/static/js/runtime-main.4cf988ce.js.map",
-    "static/js/2.864d34fb.chunk.js": "/memory-card/static/js/2.864d34fb.chunk.js",
-    "static/js/2.864d34fb.chunk.js.map": "/memory-card/static/js/2.864d34fb.chunk.js.map",
+    "static/js/2.cd540422.chunk.js": "/memory-card/static/js/2.cd540422.chunk.js",
+    "static/js/2.cd540422.chunk.js.map": "/memory-card/static/js/2.cd540422.chunk.js.map",
     "index.html": "/memory-card/index.html",
-    "precache-manifest.5080cf8224793974fe90368934f5d34a.js": "/memory-card/precache-manifest.5080cf8224793974fe90368934f5d34a.js",
+    "precache-manifest.9f63047adda4e0ec45be5a07be96b94f.js": "/memory-card/precache-manifest.9f63047adda4e0ec45be5a07be96b94f.js",
     "service-worker.js": "/memory-card/service-worker.js",
-    "static/css/main.24515877.chunk.css.map": "/memory-card/static/css/main.24515877.chunk.css.map",
-    "static/js/2.864d34fb.chunk.js.LICENSE.txt": "/memory-card/static/js/2.864d34fb.chunk.js.LICENSE.txt"
+    "static/css/main.4c00e8c4.chunk.css.map": "/memory-card/static/css/main.4c00e8c4.chunk.css.map",
+    "static/js/2.cd540422.chunk.js.LICENSE.txt": "/memory-card/static/js/2.cd540422.chunk.js.LICENSE.txt",
+    "static/media/A_Bar_at_the_Folies-Bergère.png": "/memory-card/static/media/A_Bar_at_the_Folies-Bergère.dc5d73be.png",
+    "static/media/Het melkmeisje.jpg": "/memory-card/static/media/Het melkmeisje.3ea0ccd2.jpg",
+    "static/media/Jeune Fille dans le Jardin de Giverny.jpg": "/memory-card/static/media/Jeune Fille dans le Jardin de Giverny.dbf06eb0.jpg",
+    "static/media/Las Meninas.jpg": "/memory-card/static/media/Las Meninas.821c9029.jpg",
+    "static/media/Melancholy.jpg": "/memory-card/static/media/Melancholy.86423316.jpg",
+    "static/media/Rest.png": "/memory-card/static/media/Rest.6f284711.png",
+    "static/media/The Adoration of the Magi in the snow.jpeg": "/memory-card/static/media/The Adoration of the Magi in the snow.046707af.jpeg",
+    "static/media/The Haywain Triptych.jpg": "/memory-card/static/media/The Haywain Triptych.9e22d4d7.jpg",
+    "static/media/The Hippopotamus and Crocodile Hunt.jpg": "/memory-card/static/media/The Hippopotamus and Crocodile Hunt.77fff64d.jpg",
+    "static/media/The Night watch.jpg": "/memory-card/static/media/The Night watch.6b7d0155.jpg",
+    "static/media/The Siesta.jpg": "/memory-card/static/media/The Siesta.48070976.jpg",
+    "static/media/Three Dancers in an Exercise Hall.jpg": "/memory-card/static/media/Three Dancers in an Exercise Hall.ddd4178c.jpg",
+    "static/media/style.scss": "/memory-card/static/media/michelangelo.21f7c6ba.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4cf988ce.js",
-    "static/js/2.864d34fb.chunk.js",
-    "static/css/main.24515877.chunk.css",
-    "static/js/main.b756b030.chunk.js"
+    "static/js/2.cd540422.chunk.js",
+    "static/css/main.4c00e8c4.chunk.css",
+    "static/js/main.cf698cfb.chunk.js"
   ]
 }
