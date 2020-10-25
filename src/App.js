@@ -20,7 +20,7 @@ function App() {
   }
 
   useEffect(() => {
-    if (score === 3) userWon();
+    if (score === 12) userWon();
   }, [score]);
 
   useEffect(() => {
