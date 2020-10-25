@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 
-function Blockquote() {
+function Blockquote(props) {
+  const visible = props.visibleBlockquote;
+
+  const fade = visible ? "fadeIn" : "fadeOut";
+
   return (
-    <div className="blockquote-container d-flex justify-content-center align-items-center">
+    <div
+      onClick={props.hideBlockquote}
+      className={
+        fade +
+        " " +
+        "blockquote-container d-flex justify-content-center align-items-center"
+      }
+    >
       <div className="dark-transparent d-flex justify-content-center align-items-center">
         <blockquote className="blockquote text-right">
           <h1 className="display-4">The Creation of Adam</h1>

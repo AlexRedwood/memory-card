@@ -1,7 +1,18 @@
 @import "reset";
-@import "background";
-
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+body {
+  background-color: #322f3d;
+}
 
 .blockquote-container {
   height: 100%;
@@ -11,7 +22,8 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: #444;
+  background-color: #322f3d;
+  opacity: 1;
 }
 
 .blockquote,
@@ -20,8 +32,68 @@
   font-family: "Cinzel", serif;
 }
 
+cite {
+  font-size: 1.2rem;
+}
+
 .dark-transparent {
   background-color: rgba(0, 0, 0, 0.85);
   height: 100%;
   width: 100%;
+}
+
+.fadeOut {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  transition: width 0s 1.5s, height 0s 1.5s, opacity 1.5s;
+}
+
+.fadeIn {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
+}
+
+.maingame-container {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-color: #322f3d;
+  opacity: 1;
+}
+
+header {
+  max-width: 1200px;
+  color: #b7e5fc;
+  font-family: "Kanit", sans-serif;
+}
+
+.paint-wrapper {
+  .paint-title {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    .painting {
+      max-height: 320px;
+    }
+
+    .title {
+      text-align: center;
+      color: #b7e5fc;
+      transition: color 0.3s ease;
+      letter-spacing: 1px;
+      font-family: "Kanit", sans-serif;
+    }
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.5);
+      .title {
+        color: hsl(199, 97%, 72%);
+      }
+    }
+  }
 }
