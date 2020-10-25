@@ -109,6 +109,7 @@ header {
       transition: color 0.2s ease;
       letter-spacing: 1px;
       font-family: "Kanit", sans-serif;
+      font-family: "Kanit", sans-serif;
     }
 
     &:hover {
@@ -118,4 +119,10 @@ header {
       }
     }
   }
+}
+
+.congratulations {
+  color: hsl(199, 86%, 32%);
+  font-family: "Kanit", sans-serif;
+  font-size: 1.2rem;
 }

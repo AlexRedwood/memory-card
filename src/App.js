@@ -4,17 +4,23 @@ import paintings from "./images.js";
 import style from "./style/style.scss";
 import Blockquote from "./components/Blockquote";
 import MainGame from "./components/MainGame";
+import Winner from "./components/Winner";
 
 function App() {
-  const [visibleBlockquote, setVisibleBlockquote] = useState(true);
-  const [visibleMainGame, setVisibleMainGame] = useState(false);
+  const [visibleBlockquote, setVisibleBlockquote] = useState(false);
+  const [visibleMainGame, setVisibleMainGame] = useState(true);
   const [score, setScore] = useState(0);
   const [clickedIds, setClickedIds] = useState([]);
   const [text, setText] = useState("Click on each painting only once");
   const [images, setImages] = useState(shuffle(paintings));
+  const [showModal, setShowModal] = useState(false);
+
+  function toggleModal() {
+    setShowModal((prevState) => !prevState);
+  }
 
   useEffect(() => {
-    if (score === 12) userWon();
+    if (score === 3) userWon();
   }, [score]);
 
   useEffect(() => {
@@ -59,7 +65,8 @@ function App() {
   }
   function userWon() {
     resetBoard();
-    setText("Congratulations! You won!");
+    setText("Wanna play more?");
+    setShowModal(true);
   }
 
   function userLost() {
@@ -104,6 +111,7 @@ function App() {
         score={score}
         visibleMainGame={visibleMainGame}
       />
+      <Winner show={showModal} toggle={toggleModal} />
     </div>
   );
 }
