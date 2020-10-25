@@ -1,15 +1,20 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Header from "./Header";
 import Painting from "./Painting";
-import paintings from "../images.js";
 
 function MainGame(props) {
-  const [score, setScore] = useState("10");
+  const visible = props.visibleMainGame;
+
+  const makeVisible = () => {
+    return "maingame-container fadeIn";
+  };
+
+  const fade = visible ? makeVisible() : "fadeOut";
 
   return (
-    <div className="maingame-container">
-      <Header score={score} />
-      <Painting images={paintings} />
+    <div onMouseMove={props.makeBodyOverflow} className={fade}>
+      <Header text={props.text} score={props.score} />
+      <Painting incrementScore={props.incrementScore} images={props.images} />
     </div>
   );
 }

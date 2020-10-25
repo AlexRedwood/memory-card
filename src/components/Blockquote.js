@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function Blockquote(props) {
   const visible = props.visibleBlockquote;
@@ -7,7 +7,7 @@ function Blockquote(props) {
 
   return (
     <div
-      onClick={props.hideBlockquote}
+      onClick={props.goToMainGame}
       className={
         fade +
         " " +
