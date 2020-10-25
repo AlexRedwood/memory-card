@@ -7,8 +7,8 @@ import MainGame from "./components/MainGame";
 import Winner from "./components/Winner";
 
 function App() {
-  const [visibleBlockquote, setVisibleBlockquote] = useState(false);
-  const [visibleMainGame, setVisibleMainGame] = useState(true);
+  const [visibleBlockquote, setVisibleBlockquote] = useState(true);
+  const [visibleMainGame, setVisibleMainGame] = useState(false);
   const [score, setScore] = useState(0);
   const [clickedIds, setClickedIds] = useState([]);
   const [text, setText] = useState("Click on each painting only once");
