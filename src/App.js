@@ -20,7 +20,13 @@ function App() {
   }
 
   useEffect(() => {
-    if (score === 12) userWon();
+    function userWon() {
+      resetBoard();
+      setText("Wanna play more?");
+      setShowModal(true);
+    }
+
+    if (score === 3) userWon();
   }, [score]);
 
   useEffect(() => {
@@ -62,11 +68,6 @@ function App() {
   function resetBoard() {
     setClickedIds([]);
     setScore(0);
-  }
-  function userWon() {
-    resetBoard();
-    setText("Wanna play more?");
-    setShowModal(true);
   }
 
   function userLost() {

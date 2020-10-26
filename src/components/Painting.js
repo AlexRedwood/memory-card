@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Painting(props) {
   return (
@@ -14,7 +14,11 @@ function Painting(props) {
               onClick={props.incrementScore}
               className="paint-title d-flex flex-column justify-content-between p-3 rounded"
             >
-              <img className="painting img-fluid mt-3" src={image.src}></img>
+              <img
+                alt=""
+                className="painting img-fluid mt-3"
+                src={image.src}
+              ></img>
               <div className="title h6 mt-3 mb-3">{image.name}</div>
             </div>
           </div>
